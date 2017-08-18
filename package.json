@@ -1,0 +1,33 @@
+{
+  "name": "openshift-ghost-starter",
+  "description": "Openshift Ghost Starter",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/norsasono/openshift-ghost-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/norsasono/openshift-ghost-starter/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "engines": {
+    "node": "~6.9.5 || ~4.5.0",
+    "iojs": "~3.10.10"
+  },
+  "dependencies": {
+    "ghost": "^1.6.2"
+  },
+  "homepage": "https://github.com/norsasono/openshift-ghost-starter#readme",
+  "version": "1.0.0",
+  "keywords": [
+    "ghost",
+    "openshift",
+    "blog",
+    "cms",
+    "nodejs"
+  ],
+  "author": "Noreta Agus Sasono",
+  "license": "MIT"
+}
